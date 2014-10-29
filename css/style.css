@@ -1,32 +1,25 @@
-  
-  
+* { margin:0; padding: 0; boxsizing-border:border-box; }
 
 body {
 	background-color:#52596b;
 	background-image:url("../img/stripes.png"),url("../img/background.jpg");
 	background-repeat: repeat-x,no-repeat;
-	background-size: 20%, cover;
-  background-position: , top 0;
+	background-size: auto, cover;
 
-    font-family:helvetica;
+    font-family:helvetica, sans-serif;
     color:#fff;
-    padding: 256px 0 0 40px;
-    background-color:#52596b;
   }
-  
+section {
+    margin: 256px 0 0 40px;
+}
 
 p{ font-size: 26px;
    color:#fff;
-   margin-top:50px;
-   padding-bottom: 20px;
+   margin:50px 0 20px 0;
 }      
 
 hr{
-   color:#905d67;
-   width: 40px;
-   margin-left: 0;
-  margin-top:50px;
-  line-height: 5px;
-
-
-  }      
+  border:1px #905d67 solid;
+  width: 40px;
+  margin: 50px 0 0 0;
+}
